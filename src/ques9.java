@@ -4,17 +4,16 @@ import java.util.Scanner;
             Scanner scan=new Scanner(System.in);
             int total=158;
             System.out.println("Enter the win win game :");
-            int win=scan.nextInt();
+            float win=scan.nextFloat();
             System.out.println("Enter the lost in game :");
-            int lost=scan.nextInt();
-            System.out.println("Enter the grown in game :");
-            int drown=scan.nextInt();
-            int y=win*100/total;
-            System.out.println("out of 158 games played,you have won"+win+"matches,lost"+lost+"matches and drown"+drown+"matches");
+            float lost=scan.nextFloat();
+            System.out.println("Enter the drown in game :");
+            float drown=scan.nextFloat();
+            float y=win*100/total;
+            System.out.println("out of 158 games played,you have won "+win+"matches,lost "+lost+"matches and drown"+drown+"matches");
 
 
-            System.out.println("Your winning percentage is);
+            System.out.println("Your winning percentage is"+y);
 
         }
     }
-}
