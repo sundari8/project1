@@ -53,6 +53,8 @@ public class Quiz {
                         System.out.println("correct");
                         Score+=5;
                         System.out.println("your Score :"+Score);
+                        System.out.println("CONGRADULATIONS!");
+
                     }
                     else{
                         System.out.println("In Correct");
