@@ -1,21 +1,20 @@
-
 /*
   ********EMPLOYEE MANAGEMENT*******
 
-* name           -
-* Employee ID    -
-* mobile number  -
-* Email ID       -
-* Department     -
+* name           -string
+* Employee ID    -string
+* mobile number  -string
+* Email ID       -string
+* Department     -string
 *           (if Department is "sales" -->get the data target completed (integer)
 
-Basic Salary
-* Assessment 1
- Assessment 2
- Assessment 3
- Assessment 4
- Assessment 5
- company name
+Basic Salary    -double
+* Assessment 1  -float
+ Assessment 2   -float
+ Assessment 3   --float
+ Assessment 4   -float
+ Assessment 5   -float
+ company name   -string
 
  * **METHODS**
  * getData()
