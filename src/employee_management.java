@@ -70,7 +70,7 @@ public class employee_management
     public void print_Data()
     {
         System.out.println("Name         :"+name);
-        System.out.println("Employee Id  :" +employee_id );
+        System.out.println("Employee Id  :"+employee_id );
         System.out.println("Mobil number :"+mobile_number);
         System.out.println("Email ID     :"+email_id);
         System.out.println("Assessment1  :"+asses1);
