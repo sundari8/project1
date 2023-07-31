@@ -1,3 +1,31 @@
+
+/*
+  ********EMPLOYEE MANAGEMENT*******
+
+* name           -
+* Employee ID    -
+* mobile number  -
+* Email ID       -
+* Department     -
+*           (if Department is "sales" -->get the data target completed (integer)
+
+Basic Salary
+* Assessment 1
+ Assessment 2
+ Assessment 3
+ Assessment 4
+ Assessment 5
+ company name
+
+ * **METHODS**
+ * getData()
+ * printData()
+ * calculateAverage()
+ * calculateNetSalary()
+ * CalculateBonus()
+ * printGrade()
+*/
+
 import java.util.Scanner;
 public class employee_management
 {
